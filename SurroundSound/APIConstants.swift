@@ -2,9 +2,9 @@ import SwiftUI
 
 enum SpotifyAPI {
     static let apiHost = "api.spotify.com"
-    static let clientId = "9f85c4cd5d334779a84a13ddeb2be11e"
+    static let clientId = "***"
     static let authHost = "accounts.spotify.com"
-    // static let clientSecret = "11c372634ab6425a971a17ea3344c163"
+    // static let clientSecret = "***"
     static let redirectUri = "surroundsound://callback"
     static let responseType = "code"
     static let scopes = "user-top-read"
@@ -23,8 +23,8 @@ enum SpotifyAPI {
 
 enum TicketmasterAPI {
     static let apiHost = "app.ticketmaster.com"
-    static let apiKey = "xOtzDnMQDz7Z1EKTHrKuMv0VJ8qn0jvc"
-    // static let secretKey = "ctfj0euG4y4rAWYj"
+    static let apiKey = "***"
+    // static let secretKey = "***"
     static func eventsPath(artist: String, lat: Double, lon: Double, radiusMiles: Int = 50) -> String
     {
         "/discovery/v2/events.json?apikey=\(apiKey)" +
